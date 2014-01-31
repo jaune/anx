@@ -1,0 +1,18 @@
+{
+  "author": "jaune",
+  "name": "anx",
+  "description": "",
+  "version": "0.0.0",
+  "dependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-bower-task": "~0.3.4",
+    "grunt-cli": "~0.1.13",
+    "send": "~0.2.0"
+  },
+  "scripts": {
+    "postinstall": "grunt install",
+    "prestart": "grunt build"
+  }
+}

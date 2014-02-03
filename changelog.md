@@ -1,4 +1,11 @@
-2011-01-30
+2014-02-03
+==================
+
+  * Réusinage de code
+  * Ajout de l'application de texture sur les sprites
+  * Ajout des textures utilisant des images
+
+2014-01-30
 ==================
 
   * Ajout de la rotation sur la X de la camera via le drag de la souris
@@ -8,13 +15,13 @@
   * Utilisation de Bower <http://bower.io/>
   * Utilisation de Grunt <http://gruntjs.com//>
 
-2011-01-29
+2014-01-29
 ==================
 
   * Ajout de la bibliothèque hammer.js <http://eightmedia.github.io/hammer.js/>
   * Ajout de la rotation sur la Y de la camera via le drag de la souris
 
-2011-01-28
+2014-01-28
 ==================
 
   * Création du projet

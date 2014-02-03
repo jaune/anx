@@ -13,7 +13,9 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'bower_components.min.js': (function () {
-                        var sources = [];
+                        var sources = [
+                            'bower_components/gl-matrix/dist/gl-matrix.js'
+                        ];
                         ['bower_components/PointerEvents','bower_components/PointerGestures'].forEach(function (base) {
                             var path = base+'/build.json';
                             if (grunt.file.exists(path)) {
@@ -36,7 +38,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['build']);
+    grunt.registerTask('default', ['uglify:bower_components']);
     grunt.registerTask('install', ['bower:install']);
-    grunt.registerTask('build', ['uglify']);
+    grunt.registerTask('build', ['uglify:bower_components']);
 };

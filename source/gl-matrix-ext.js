@@ -18,7 +18,8 @@ mat4x.compose = function (out, p, q, s) {
     mat4.identity(out);
 
     mat4.scale(out, out, s);
-    mat4.translate(out, out, p);
+
+    mat4.fromRotationTranslation(out, q, p);
 
 
     return out;

@@ -1,0 +1,36 @@
+[
+    "source/gl-matrix-ext.js",
+
+    "source/ListenerList.js",
+
+
+    "source/Object3D.js",
+    "source/CSS3DObject.js",
+    "source/CSS3DSprite.js",
+    "source/Camera.js",
+    "source/Renderer.js",
+    "source/BattlefieldRenderer.js",
+
+    "source/UniqueIdGenerator.js",
+    "source/Entity.js",
+    "source/EntityManager.js",
+
+    "source/component/BaseComponent.js",
+    "source/component/GaugeComponent.js",
+    "source/component/HPGaugeComponent.js",
+    "source/component/MPGaugeComponent.js",
+    "source/component/NameComponent.js",
+
+    "source/component/PuppetComponent.js",
+    "source/component/PuppeteerComponent.js",
+
+    "source/component/SelectableComponent.js",
+
+
+
+
+    "source/CharacterDOMRenderer.js",
+    "source/SubjectActionTargetStateMachine.js",
+
+    "source/index.js"
+]

@@ -4,6 +4,12 @@ var Renderer = function () {
     var _widthHalf, _heightHalf;
 
     var matrix = mat4.create();
+    var vector = vec3.create();
+
+
+    var aMin = 0;
+    var aMax = 0;
+
 
     var domElement = document.createElement('div');
     domElement.style.overflow = 'hidden';

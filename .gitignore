@@ -228,3 +228,13 @@ node_modules
 ## Bower
 #############
 bower_components
+bower_components.min.js
+bower_components.js.map
+
+#############
+#############
+
+index.css
+index.css.map
+index.min.js
+index.js.map

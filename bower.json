@@ -17,6 +17,7 @@
   "dependencies": {
     "PointerEvents": "https://github.com/Polymer/PointerEvents.git#~0.1.4",
     "PointerGestures": "https://github.com/Polymer/PointerGestures.git#~0.1.4",
-    "gl-matrix": "https://github.com/toji/gl-matrix.git#~2.2.0"
+    "gl-matrix": "https://github.com/toji/gl-matrix.git#~2.2.0",
+    "lesshat": "~2.0.15"
   }
 }
